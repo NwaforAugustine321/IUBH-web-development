@@ -1,10 +1,8 @@
 This is IUBH web development project
 
-## Getting Started
+## Steps to run the project:
 
-Steps to run the project:
-
-install all project dependency
+1. Install all project dependency
 
 ```bash
 npm install
@@ -12,7 +10,7 @@ npm install
 yarn install
 ```
 
-start the project
+2. Start the project
 
 ```bash
 npm run dev
