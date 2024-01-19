@@ -1,3 +1,4 @@
+'use client';
 import { get } from '@/utils/request';
 
 export const searchBook = async (query: string, filter?: string) => {

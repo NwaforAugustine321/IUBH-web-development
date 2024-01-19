@@ -1,3 +1,4 @@
+'use client';
 import { IBookMark, ILogin, IRemoveBookMark } from '@/interfaces/web-interface';
 import { createClient } from '@supabase/supabase-js';
 

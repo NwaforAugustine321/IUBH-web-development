@@ -1,3 +1,4 @@
+'use client';
 import LandingPageLayout from '@/components/layouts/LandingPageLayout';
 import HomeScreen from '@/screens/Home';
 

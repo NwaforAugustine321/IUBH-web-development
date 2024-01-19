@@ -229,11 +229,12 @@ const HomeScreen = () => {
           {markedBooks.map((book: any, index: number) => {
             return (
               <li
-                onClick={() => handleShowBookDetails(book)}
                 key={`${book.book_name}-${index}`}
                 className='cursor-pointer flex items-center justify-between  min-h-[20px] px-[1rem] py-[0.3rem] text-[1rem] bg-gray-200 text-black mb-[0.5rem] overflow-y-auto'
               >
-                {book?.book_name}{' '}
+                <span onClick={() => handleShowBookDetails(book)}>
+                  {book?.book_name}{' '}
+                </span>
                 <span className='w-[max-content]'>
                   <MdDeleteForever
                     className='font-[1.4rem]'

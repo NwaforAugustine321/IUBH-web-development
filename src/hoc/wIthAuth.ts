@@ -1,6 +1,6 @@
 const withAuth = (Component: any): any => {
   if (
-    typeof localStorage !== 'undefined' &&
+    typeof window !== 'undefined' &&
     localStorage.getItem('iubh-user') === null
   ) {
     if (typeof window !== 'undefined') {
