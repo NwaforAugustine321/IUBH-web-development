@@ -1,17 +1,17 @@
 'use client';
-import LottieLoader from '@/components/ui/loaders/LottieLoader';
-import homeLoader from '@/assest/home-loader.json';
-import { searchBook } from '@/services/book-api-services';
+import LottieLoader from '../components/ui/loaders/LottieLoader';
+import homeLoader from '../assest/home-loader.json';
+import { searchBook } from '../services/book-api-services';
 import { Circles } from 'react-loader-spinner';
 import { useState } from 'react';
 import { VscStarFull } from 'react-icons/vsc';
 import { useRouter } from 'next/navigation';
-import withAuth from '@/hoc/withAuth';
+import withAuth from '../hoc/wIthAuth';
 import {
   bookMark,
   getBookmarkedBooks,
   unBookMark,
-} from '@/services/supabase-server';
+} from '../services/supabase-server';
 import { useEffect } from 'react';
 import { MdDeleteForever } from 'react-icons/md';
 import { useRef } from 'react';

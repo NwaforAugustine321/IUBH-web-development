@@ -1,5 +1,5 @@
 'use client';
-import { login } from '@/services/supabase-server';
+import { login } from '../services/supabase-server';
 import { useState } from 'react';
 import { Circles } from 'react-loader-spinner';
 import { useRouter } from 'next/navigation';
